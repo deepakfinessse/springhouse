@@ -1,0 +1,38 @@
+.shape-left-top-gs {
+    position: absolute;
+    top: -19px;
+    left: 10px;
+    transform: rotate(270deg);
+}
+
+.get-touch .get-left-touch p {
+    margin-bottom: 20px !important;
+    line-height: 28px !important;
+}
+
+.property-spec .back .h5 {
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    font-family: 'gobold' !important;
+}
+
+.property-spec .bottom-right a:hover {
+    background-color: #00AAA6 !important;
+}
+
+.shape-right-bottom-property {
+    position: absolute;
+    right: -29px;
+    bottom: 5px;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+/* Responsive Slider Overrides for Mobile */
+@media (max-width: 768px) {
+    .responsive-slider-container,
+    .responsive-slider-img {
+        height: 400px !important;
+    }
+}

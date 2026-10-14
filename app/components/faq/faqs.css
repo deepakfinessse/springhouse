@@ -1,0 +1,10 @@
+.accordion-header {
+  font-family: "montserrat", sans-serif !important;
+  font-weight: 650 !important;
+}
+
+.faq-answer-content {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}

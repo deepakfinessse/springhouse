@@ -1,0 +1,23 @@
+.shape-left-top-solution {
+  position: absolute;
+  top: -16px;
+  left: -1px;
+  transform: rotate(270deg);
+}
+
+.shape-right-bottom-solution {
+  position: absolute;
+  right: -16px;
+  bottom: -1px;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.card-bg-colour {
+  background-color: #f6f4f4;
+}
+
+.extra-bottom-space {
+  margin-bottom: -5px;
+}

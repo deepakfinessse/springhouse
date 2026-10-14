@@ -1,0 +1,37 @@
+/* 1. Import Google Fonts (Montserrat) */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+/* 2. Define Local Font (Gobold) */
+@font-face {
+  font-family: "gobold";
+  src: url("/admin_assets/font/Gobold Regular.otf");
+}
+
+body, html {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Global Word-Break Fix for Mobile */
+@media only screen and (max-width: 991px) {
+  * {
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    hyphens: none !important;
+  }
+}
+
+@theme {
+  /* Brand Colors from style.css */
+  --color-brand-primary: #00aaa6; /* --theme-primarycolor */
+  --color-brand-light: #f5f3f3; /* --theme-lightcolor */
+  --color-brand-dark: #282828; /* Custom dark for admin, keeping for contrast */
+  --color-brand-black: #000000; /* --theme-blackcolor */
+  --color-brand-white: #ffffff; /* --theme-whitecolor */
+  --color-brand-para: #626262; /* --theme-paracolor */
+
+  /* Fonts */
+  --font-heading: "gobold", sans-serif; /* --theme-mainhead */
+  --font-body: "Montserrat", sans-serif; /* --theme-mainpara */
+}

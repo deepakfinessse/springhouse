@@ -1,0 +1,30 @@
+.blog-card .shape-bottom {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  background: var(--theme-whitecolor);
+  width: 200px;
+  height: 97px;
+  border-radius: 0 20px 0 0;
+}
+
+.blog-card .shape-right-bottom {
+  position: absolute;
+  right: -14px;
+  bottom: 16px;
+}
+
+.blog-image img {
+  border-bottom-right-radius: 10px;
+  width: 100%;
+}
+
+.blog-date.textright {
+  margin-top: 25px;
+  color: #575757;
+}
+
+/* Base styling for blog grid */
+.blog-archive .blog-card {
+  margin-bottom: 30px;
+}
